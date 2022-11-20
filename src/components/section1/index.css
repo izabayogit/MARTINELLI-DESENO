@@ -34,7 +34,7 @@ margin-top: 25px !important;
 /* ++++++++++++++++++ */
 
   .catalog-subdiv1{
-    background-image: url("../../assets/images/fabric4.avif");
+    background-image: url("../../assets/images/fabric4.PNG");
     margin-left: 110px;
     margin-right: 110px;
     padding: 4rem 0 4rem 0 ;
@@ -42,7 +42,7 @@ margin-top: 25px !important;
 } 
 .catalog-subdiv2{
     width: 49.5%;
-  background-image: url("../../assets/images/newFabric.avif");
+  background-image: url("../../assets/images/newFabric.jpg");
   margin-bottom: 64px;
   padding-bottom: 4rem;
   padding-top: 4rem;
@@ -50,7 +50,7 @@ margin-top: 25px !important;
 }
 .catalog-subdiv3{
     width: 49.5%;
-  background-image: url("../../assets/images/phabric1.avif");
+  background-image: url("../../assets/images/phabric1.jpg");
   margin-bottom: 64px;
   padding-bottom: 4rem;
   padding-top: 4rem;
@@ -159,7 +159,7 @@ margin-top: 20px;
       padding: 0 !important;
     }
     .catalog-subdiv1{
-      background-image: url("../../assets/images/fabric4.avif");
+      background-image: url("../../assets/images/fabric4.jpg");
       margin-left: 16px !important;
       margin-right: 16px !important;
       padding: 5rem 0 5rem 0 ;
@@ -196,7 +196,7 @@ margin-top: 20px;
   }
   .catalog-subdiv2{
     width: 100% !important;
-    background-image: url("../../assets/images/newFabric.avif");
+    background-image: url("../../assets/images/newFabric.jpg");
     margin-bottom: 4px !important;
     padding-bottom: 4rem !important;
     padding-top: 4rem !important;
@@ -204,7 +204,7 @@ margin-top: 20px;
 }
 .catalog-subdiv3{
   width: 100% !important;
-background-image: url("../../assets/images/phabric1.avif");
+background-image: url("../../assets/images/phabric1.jpg");
 margin-bottom: 4px;
 padding-bottom: 4rem;
 padding-top: 4rem;
