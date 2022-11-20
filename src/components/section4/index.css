@@ -1,0 +1,246 @@
+.section4-container{
+    text-align: left;
+    background: #EDEAE6;
+    margin-right: 0;
+    padding-right: 0;
+    padding-bottom: 64px;
+}
+.innerContent1{
+    width: 23.5%;
+    height: 400px;
+    margin-right:1.665%;
+
+    background-image: url("../../assets/images/pillow1.avif");
+}
+.section4-inner{
+    display: flex;
+    margin-right: 0;
+    padding-right: 0;
+}
+.innerContent2{
+    width: 23.5%;
+    height: 400px;
+    margin-right: 1.665%;
+
+    background-image: url("../../assets/images/phabric1.avif");
+}
+.innerContent3{
+    width: 23.5%;
+    height: 400px;
+    margin-right: 1.665%; 
+    background-image: url("../../assets/images/pillow2.avif");
+}
+.innerContent4{
+    width: 23.5%;
+    height: 400px;
+    margin-right: 1.665%;
+    background-image: url("../../assets/images/pll.jpg");
+}
+.innerContent5{
+    width: 6%;
+    height: 400px;
+    margin-right: 0;
+    background-image: url("../../assets/images/pillowdec.avif");
+}
+.contentTrue{
+    margin-left: 110px;
+    margin-right: 0;
+    padding-right: 0;
+   
+}
+.textDiv{
+    display: flex;
+    padding-top: 64px;
+    margin-bottom: 64px;
+    justify-content:space-between;
+}
+.icons{
+   /* position: absolute;
+   right: 7%; */
+}
+.right-icon{
+    width: 24px;
+    height: 24px;
+    color: #1E1E1E;
+}
+.left-icon{
+    color:#D9D9D9;
+    width: 24px;
+height: 24px;
+
+}
+.right-icon:hover{
+    cursor: pointer;
+}
+.left-icon:hover{
+    cursor: pointer;
+}
+.product-title{
+    width: 702px;
+    height: 50px;
+    font-family: 'Bodoni Moda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+}
+.productFooter{
+    display: None;
+}
+.section4-innerPhone{
+    display: none;
+}
+.pagination{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .innerContent1{
+        display: none !important;
+    }
+    .innerContent2{
+        display: none !important;
+    }
+    .innerContent3{
+        display: none !important;
+    }
+    .innerContent4{
+        width: 70%;
+        height: 400px;
+        margin-right: 10%;
+        background-image: url("../../assets/images/pll.jpg");
+    }
+    .innerContent5{
+        width: 20%;
+        height: 400px;
+        margin-right: 1.665%;
+        background-image: url("../../assets/images/pll.jpg");
+    }
+    .icons{
+        display: none;
+    }
+    .contentTrue{
+        margin-left: 16px;
+        margin-right: 0;
+        padding-right: 0;
+       
+    }
+    .productFooter{
+        display: block;
+    }
+    .markers{
+        display: flex;
+    }
+    .red{
+        width: 20px;
+        height: 20px;
+        background: #973528;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+    .gray{
+        width: 20px;
+        height: 20px;
+        background: #9A9EA3;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+    .green{
+        width: 20px;
+        height: 20px;
+        background:  #00513C;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+    .brown{
+        width: 20px;
+        height: 20px;
+        background:  #1E1E1E;
+        border-radius: 50%;
+        margin-right: 15px;
+
+    }
+    .superscript{
+        position: relative; 
+        top: -0.2em; font-size: 80%;
+    }
+    .count{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+    }
+    .productDesc{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: 0.02em;
+        color: #1E1E1E;
+        padding-bottom: 18px;
+        margin-top: 16px;
+    }
+    .lowerSections{
+        display: flex;
+        justify-content: space-between;
+    }
+    .lastDiv{
+        width: 20%;
+    }
+    .lowerdec{
+        margin-left: 16px;
+    }
+    .pagination{
+        display: flex;
+        justify-content: space-between;
+        padding: 46px 0px 0px 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .pagination p{
+        align-items: center;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        border: 2px solid #9A9EA3;
+        background: #EDEAE6;
+        text-align: center;
+        color: #484a4d;
+        font-weight: 300;
+    }
+    .countIcons{
+     
+        font-size: 20px;
+    }
+    .active{
+        width: 8px;
+        height: 30px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.03em;
+        color:  #1E1E1E;
+        margin-top: 5px;
+    }
+    .inactive{
+        width: 8px;
+        height: 30px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing: 0.03em;
+        color: #9A9EA3;
+        margin-top: 5px;
+    }
+    .left{
+        margin-right: 50px;
+    }
+    .right{
+        margin-left: 50px;
+    }
+}

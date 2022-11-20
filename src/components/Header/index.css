@@ -1,0 +1,164 @@
+.topHead{
+    background-color:#000000 !important;
+    height: 110px !important;
+    width: 100%;
+}
+.logo{
+    
+}
+.navigationLinks {
+    color: #fff !important;
+    height:24px !important;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
+.catalogLinks{
+    color: #fff !important;
+    height:24px !important;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
+.catalogLinksPhone{
+    display: none;
+}
+
+.navigationIcon{
+    color:#fff;
+    width: 18px !important;
+    height: 20px !important;
+    margin-right: 10px !important;
+}
+.navigationBurger{
+    color:#fff !important;
+    width: 25px !important;
+    height: 17.5px !important;
+    font-size: 70px !important;
+}
+.navigationLinksBurger{
+    border: 1px solid #fff !important;
+    border-radius: 50%;
+    height: 40px !important;
+    width: 40px !important;
+    margin-left: 40px;
+}
+.townHead{
+    background-color: #A3846B;
+    width: 100%;
+}
+.brignoli img{
+    /* 211.06px */
+    width: 150px !important;
+}
+.nav1 {
+    display: flex !important;
+}
+.downRight{
+    display: flex;
+}
+.downRight p{
+height: 29px;
+font-family: 'Montserrat';
+font-style: normal;
+color: #FFFFFF
+}
+.downRight .activeParagraph{
+/* height: 29px; */
+font-family: 'Montserrat';
+text-decoration-line: underline;
+color: #FFFFFF;
+margin-left: 0;
+}
+.downRight p{
+    margin-left:30px ;
+}
+.rightAi{
+    height: 17.5px;
+    width: 10px;
+    color: #FFFFFF;
+}
+.leftAi{
+    height: 17.5px;
+    width: 10px;
+    color: #FFFFFF;
+
+}
+
+.mobileLogo{
+    display: none;
+  }
+ 
+.downRightPhone{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .navbar-brand img {
+      width: 150px;
+    }
+    .navigationLinks {
+    font-size: 10px;
+    line-height: 17px;
+    }
+    .navigationIcon{
+        width: 24px !important;
+        height: 24px !important;
+        margin-right: 5px !important;
+    }
+    .navigationLinksBurger{
+        margin-left: 30px;
+    }
+    .navbar-brand img {
+      width: 150px;
+    }
+    .navigationLinks {
+    font-size: 10px;
+    line-height: 17px;
+    }
+    .deskLogo{
+        display: none;
+    }
+    .mobileLogo{
+        display: block;
+        width: 73.23px !important;
+        height: 56px !important;
+      }
+      .topHead{
+        background-color: #1E1E1E !important;
+        height:88px !important;
+      }
+      .navigationLinks{
+        display: none !important;
+      }
+      .p{
+        display: none !important;
+      }
+      .downRight{
+        display: none !important;
+      }
+      .downRightPhone{
+        display: flex;
+      }
+      .downRightPhone p{
+        height: 29px;
+        font-family: 'Montserrat';
+        color: #FFFFFF;
+        margin: 0 20px 0 20px;
+      }
+      .catalogLinks{
+        display: none !important;
+      }
+      .catalogLinksPhone{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        display: block !important;
+        text-align: center;
+      }
+  }
+

@@ -1,0 +1,133 @@
+.section5-container{
+    display: flex;
+
+}
+.left-div{
+    width: 57.9%;
+    height: 558px;
+    margin-right: 0.2%;
+    margin-bottom: 0.2%;
+    background-image: url("../../assets/images/textile.jpg");
+}
+.right-div{
+    margin-bottom: 0.2%;
+    background: #1E1E1E;
+   padding: 6.5rem 3rem 6.5rem 5rem;
+ 
+}
+.right-content-body{
+    width: 492px;
+    /* height: 96px; */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-align: left;
+}
+.right-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 800px;
+    color:#ffffff;
+    background-color:  #1E1E1E;
+}
+.right-content-title{
+
+    width: 469px;
+    font-family: 'Bodoni Moda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    /* or 67px */
+    
+    
+    /* WHITE */
+    
+    color: #FFFFFF
+    
+}
+.right-content{
+    align-items: center;
+}
+.right-div{
+
+}
+.section5-containerPhone{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .section5-containerPhone{
+     
+        display: block;
+    } 
+    .section5-container{
+        display: none;
+    }
+    .right-div{
+        margin-bottom: 0.2%;
+        background: #1E1E1E;
+       padding: 0;
+       width: 100%;
+     
+    }
+    .left-div{
+        width: 100%;
+        height: 558px;
+        margin-right: 0;
+        margin-bottom: 0%;
+        background-image: url("../../assets/images/textile.jpg");
+    }
+    .right-content-body{
+        width: auto;
+        /* height: 96px; */
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        text-align: center;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .right-content-title{
+
+        width: auto;
+        font-family: 'Bodoni Moda';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 36px;
+        
+    }
+    .right-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 24px;
+        gap: 10px;
+        width: 328px;
+        height: 56px;
+        border: 1px solid #FFFFFF;
+        border-radius: 800px;
+    }
+       .buttonDown{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 36px;
+    }
+}
